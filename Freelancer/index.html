@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJdigitalstudios - Serviços de Design</title>
+
+    <!-- Carregando a biblioteca EmailJS SDK v4 -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/4.0.0/email.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="#">MJdigitalstudios</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#testemunhos">Testemunhos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Inicial (Hero) -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Transforme sua marca com design criativo e impactante</h2>
+            <p>Descubra como podemos elevar a identidade visual do seu negócio.</p>
+            <a href="#contato" class="btn-primary">Solicite um orçamento</a>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2>Pacote de Serviços</h2>
+            <div class="service-container">
+                <article class="service-card">
+                    <h3>Identidade Visual</h3>
+                    <ul>
+                        <li>Criação de logotipo</li>
+                        <li>Paleta de cores e tipografia</li>
+                        <li>Manual da Marca</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3>Design Digital</h3>
+                    <ul>
+                        <li>Design de posts para redes sociais</li>
+                        <li>Criação de Landing Pages</li>
+                        <li>Desenvolvimento de sites</li>
+                    </ul>
+                </article>
+                <article class="service-card">
+                    <h3>Consultoria Criativa</h3>
+                    <ul>
+                        <li>Consultoria de Branding</li>
+                        <li>Estratégias Visuais</li>
+                        <li>Mentoria para Empreendedores</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou o criador da MJdigitalstudios, especializado em design gráfico e branding. Meu objetivo é transformar sua marca com criatividade e impacto.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Testemunhos -->
+    <section id="testemunhos" class="section">
+        <div class="container">
+            <h2>O que dizem nossos clientes</h2>
+            <div class="testimonial-container">
+                <article class="testimonial-card">
+                    <p>"O trabalho de MJdigitalstudios transformou nossa marca!"</p>
+                    <h4>João Silva</h4>
+                    <p>Empresário</p>
+                </article>
+                <article class="testimonial-card">
+                    <p>"A consultoria em branding foi essencial para nossa comunicação!"</p>
+                    <h4>Maria Souza</h4>
+                    <p>Marketing Digital</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MJdigitalstudios. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
